@@ -1,11 +1,11 @@
 #LINKED LIST TRAVERSAL 
 
-#1.create node
-class node:
-    def __init__(self,data):
+#creating node
+class node::
+    def __init__(self,data)
         self.data=data
-    #ref
-        self.ref=None
+    
+        self.ref=None  #ref
 
 #to link the nodes we need to create another class
 class linkedlist:
@@ -16,8 +16,8 @@ class linkedlist:
             print("LINKEDLIST IS EMPTY")
         else:
            n=self.head
-           #to continue traversal until ref=none;used loop
-        while n is not None:
+           
+        while n is not None: #to continue traversal until ref=none;used loop
             print(n.data)
             n=n.ref
 ll1=linkedlist()
